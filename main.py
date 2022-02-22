@@ -54,8 +54,7 @@ exit_button.grid(row=2, column=2)
 submit_button = Button(text="Submit", width=15, padx=10, pady=10, command=submit).grid(row=5, column=1, sticky=W)
 
 # Labels
-header = Label(text="Choose an image and add a label to it", bg="#e0eef2", padx=50, pady=50,
-               font=("Helvetica", 20, "bold")).grid(row=1, column=1)
+header = Label(text="Choose an image and add a label to it", bg="#e0eef2", padx=50, pady=50, font=("Helvetica", 20, "bold")).grid(row=1, column=1)
 Label(text="Add a text:", bg="#e0eef2", padx=10, pady=10, font=("Helvetica", 15)).grid(row=2, column=0, sticky=W)
 Label(text="Add an X position:", bg="#e0eef2", padx=10, pady=10, font=("Helvetica", 15)).grid(row=3, column=0, sticky=W)
 Label(text="Add an Y position:", bg="#e0eef2", padx=10, pady=10, font=("Helvetica", 15)).grid(row=4, column=0, sticky=W)
